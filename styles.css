@@ -1,0 +1,94 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+header{
+    background-image: url("mauro-lima-amgdBYI-o1k-unsplash.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 2px solid transparent;
+}
+ul li a{
+    color:red;
+    text-decoration:none;
+    display:block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: blanchedalmond;
+    color: darkcyan;
+    transition: 0.5s ease-in;
+}
+.active{
+    background-color:sienna;
+    color: palevioletred;
+}
+
+.center_text{
+    margin-bottom: 400px;
+    margin-left: 530px;
+}
+center_text h1{
+    position: center;
+}
+h1{
+    color: cornflowerblue;
+    position: center;
+    size: 100vh;
+}
+#bt1{
+     border: 2px solid white;
+     color: red;
+     padding: 6px;
+     text-decoration: none; 
+}
+#bt2 {
+    border: 2px solid white;
+    color: red;
+    padding: 6px;
+    text-decoration: none;
+}  
+#bt1:hover{
+    background-color: coral;
+    color:aqua;
+    transition: 0.5s ease;
+}
+#bt2:hover {
+    background-color: coral;
+    color: aqua;
+    transition: 0.5s ease;
+}
+/* styles.css */
+.gallery {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    position: relative;
+}
